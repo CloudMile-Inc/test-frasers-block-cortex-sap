@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "sandbox-bigquery-connection"
+  value: "cortex"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "fpcs-sandbox-data-platform"
+  value: "GCP Project ID"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "REPORTING"
+  value: "Reporting Dataset Name"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "108"
+  value: "Client ID"
   export: override_required
 }
 
